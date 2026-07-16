@@ -1,11 +1,11 @@
 {
   "name": "team-dev-skills",
-  "version": "0.1.0",
-  "description": "Shared Agent Skills and Claude Code commands for team project development.",
+  "version": "0.2.0",
+  "description": "Internal Agent Skills and Claude Code commands for team project development.",
   "author": {
     "name": "shadow-dqj"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "repository": "https://github.com/shadow-dqj/team-dev-skills",
   "keywords": [
     "agent-skills",

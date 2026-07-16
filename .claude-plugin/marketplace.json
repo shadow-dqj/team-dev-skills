@@ -4,21 +4,22 @@
     "name": "shadow-dqj"
   },
   "metadata": {
-    "description": "Shared Agent Skills and Claude Code commands for team project development.",
-    "version": "0.1.0"
+    "description": "Internal Agent Skills and Claude Code commands for team project development.",
+    "version": "0.2.0",
+    "license": "UNLICENSED"
   },
   "plugins": [
     {
       "name": "team-dev-skills",
       "source": "./",
-      "description": "Shared Agent Skills and Claude Code commands for team project development.",
-      "version": "0.1.0",
+      "description": "Internal Agent Skills and Claude Code commands for team project development.",
+      "version": "0.2.0",
       "author": {
         "name": "shadow-dqj"
       },
       "homepage": "https://github.com/shadow-dqj/team-dev-skills",
       "repository": "https://github.com/shadow-dqj/team-dev-skills",
-      "license": "MIT",
+      "license": "UNLICENSED",
       "keywords": [
         "agent-skills",
         "claude-code",
