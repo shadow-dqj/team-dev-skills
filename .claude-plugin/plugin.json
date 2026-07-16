@@ -1,6 +1,6 @@
 {
   "name": "team-dev-skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Internal Agent Skills and Claude Code commands for team project development.",
   "author": {
     "name": "shadow-dqj"

@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Internal Agent Skills and Claude Code commands for team project development.",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "license": "UNLICENSED"
   },
   "plugins": [
@@ -13,7 +13,7 @@
       "name": "team-dev-skills",
       "source": "./",
       "description": "Internal Agent Skills and Claude Code commands for team project development.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "shadow-dqj"
       },
