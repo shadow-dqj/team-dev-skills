@@ -17,6 +17,19 @@ SECRET_PATTERNS = {
     "GitHub token": re.compile(r"(?:github_pat_|gh[pousr]_)[A-Za-z0-9_]{20,}"),
     "private key": re.compile(r"-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----"),
     "generic API key": re.compile(r"\bsk-[A-Za-z0-9_-]{20,}"),
+    "private IPv4 address": re.compile(
+        r"(?<!\d)(?:10\.(?:\d{1,3}\.){2}\d{1,3}|"
+        r"192\.168\.\d{1,3}\.\d{1,3}|"
+        r"172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3})(?!\d)"
+    ),
+    "connection string": re.compile(
+        r"(?i)(?:jdbc:[a-z][a-z0-9+.-]*:|mongodb(?:\+srv)?://|"
+        r"redis://|mysql://|postgres(?:ql)?://)"
+    ),
+    "assigned secret value": re.compile(
+        r"(?im)\b(?:password|passwd|token|secret|api[_-]?key)"
+        r"\s*[:=]\s*[\"']?[^\s<{][^\r\n]{7,}"
+    ),
 }
 
 
