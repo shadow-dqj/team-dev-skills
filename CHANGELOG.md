@@ -4,6 +4,14 @@ All notable changes to this repository are documented here. The project follows 
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-16
+
+### Added
+
+- Internal MySQL development standard Skill covering schema, fields, indexes, SQL safety, performance, and database changes.
+- Internal Redis development standard Skill covering cache selection, keys, values, TTL, commands, clients, resilience, and BigKey handling.
+- Review checklists and source-conflict guidance for both database standards.
+
 ## [0.2.0] - 2026-07-16
 
 ### Added
